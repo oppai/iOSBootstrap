@@ -16,6 +16,6 @@ test:
       PROVISIONING_PROFILE=
       -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest'
       -sdk iphonesimulator
-      -project iOSBootstraps.xcodeproj
+      -workspace iOSBootstrap.xcworkspace
       -scheme iOSBootstrap 
       build build-tests run-tests

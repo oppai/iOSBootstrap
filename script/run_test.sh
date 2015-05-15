@@ -1,1 +1,1 @@
-xctool -project iOSBootstrap.xcodeproj -scheme iOSBootstrap build-tests run-tests
+xctool -workspace iOSBootstrap.xcworkspace -scheme iOSBootstrap build-tests run-tests
