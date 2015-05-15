@@ -1,8 +1,7 @@
-iOSBootstrap
+iOSBootstrap [![Circle CI](https://circleci.com/gh/oppai/iOSBootstrap.svg?style=svg)](https://circleci.com/gh/oppai/iOSBootstrap)
 ===============
 ## How to use
-clone this repository!
-And replace name following command
+Clone this repository! And replace name following command
 ```
 grep -rl 'iOSBootstrap' * | xargs sed -e -i "s/iOSBootstrap/MyProject/g"
 ```
