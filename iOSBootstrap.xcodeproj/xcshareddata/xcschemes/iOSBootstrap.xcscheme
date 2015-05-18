@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0620"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1B1BFAA71B067BA600B77777"
+               BlueprintIdentifier = "07A57E2C1B09FECE006BD66D"
                BuildableName = "iOSBootstrap.app"
                BlueprintName = "iOSBootstrap"
                ReferencedContainer = "container:iOSBootstrap.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1B1BFAC01B067BA700B77777"
+               BlueprintIdentifier = "07A57E451B09FECE006BD66D"
                BuildableName = "iOSBootstrapTests.xctest"
                BlueprintName = "iOSBootstrapTests"
                ReferencedContainer = "container:iOSBootstrap.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1B1BFAC01B067BA700B77777"
+               BlueprintIdentifier = "07A57E451B09FECE006BD66D"
                BuildableName = "iOSBootstrapTests.xctest"
                BlueprintName = "iOSBootstrapTests"
                ReferencedContainer = "container:iOSBootstrap.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1B1BFAA71B067BA600B77777"
+            BlueprintIdentifier = "07A57E2C1B09FECE006BD66D"
             BuildableName = "iOSBootstrap.app"
             BlueprintName = "iOSBootstrap"
             ReferencedContainer = "container:iOSBootstrap.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1B1BFAA71B067BA600B77777"
+            BlueprintIdentifier = "07A57E2C1B09FECE006BD66D"
             BuildableName = "iOSBootstrap.app"
             BlueprintName = "iOSBootstrap"
             ReferencedContainer = "container:iOSBootstrap.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1B1BFAA71B067BA600B77777"
+            BlueprintIdentifier = "07A57E2C1B09FECE006BD66D"
             BuildableName = "iOSBootstrap.app"
             BlueprintName = "iOSBootstrap"
             ReferencedContainer = "container:iOSBootstrap.xcodeproj">

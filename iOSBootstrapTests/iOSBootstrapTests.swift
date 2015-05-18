@@ -2,7 +2,7 @@
 //  iOSBootstrapTests.swift
 //  iOSBootstrapTests
 //
-//  Created by 村山 寛明 on 2015/05/16.
+//  Created by kodam on 2015/05/18.
 //  Copyright (c) 2015年 kodam. All rights reserved.
 //
 

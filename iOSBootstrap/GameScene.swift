@@ -2,7 +2,7 @@
 //  GameScene.swift
 //  iOSBootstrap
 //
-//  Created by 村山 寛明 on 2015/05/16.
+//  Created by kodam on 2015/05/18.
 //  Copyright (c) 2015年 kodam. All rights reserved.
 //
 
@@ -19,10 +19,10 @@ class GameScene: SKScene {
         self.addChild(myLabel)
     }
     
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         /* Called when a touch begins */
         
-        for touch: AnyObject in touches {
+        for touch in (touches as! Set<UITouch>) {
             let location = touch.locationInNode(self)
             
             let sprite = SKSpriteNode(imageNamed:"Spaceship")

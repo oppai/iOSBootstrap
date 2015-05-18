@@ -2,7 +2,7 @@
 //  GameViewController.swift
 //  iOSBootstrap
 //
-//  Created by 村山 寛明 on 2015/05/16.
+//  Created by kodam on 2015/05/18.
 //  Copyright (c) 2015年 kodam. All rights reserved.
 //
 
@@ -10,13 +10,13 @@ import UIKit
 import SpriteKit
 
 extension SKNode {
-    class func unarchiveFromFile(file : NSString) -> SKNode? {
+    class func unarchiveFromFile(file : String) -> SKNode? {
         if let path = NSBundle.mainBundle().pathForResource(file, ofType: "sks") {
             var sceneData = NSData(contentsOfFile: path, options: .DataReadingMappedIfSafe, error: nil)!
             var archiver = NSKeyedUnarchiver(forReadingWithData: sceneData)
             
             archiver.setClass(self.classForKeyedUnarchiver(), forClassName: "SKScene")
-            let scene = archiver.decodeObjectForKey(NSKeyedArchiveRootObjectKey) as GameScene
+            let scene = archiver.decodeObjectForKey(NSKeyedArchiveRootObjectKey) as! GameScene
             archiver.finishDecoding()
             return scene
         } else {
@@ -32,7 +32,7 @@ class GameViewController: UIViewController {
 
         if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
             // Configure the view.
-            let skView = self.view as SKView
+            let skView = self.view as! SKView
             skView.showsFPS = true
             skView.showsNodeCount = true
             
